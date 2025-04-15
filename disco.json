@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "port": 3000,
+            "command": "node server.cjs"
+        },
+        "websocket": {
+            "command": "npx y-websocket",
+            "publishedPorts": [{
+                "publishedAs": 1234,
+                "fromContainerPort": 1234,
+                "protocol": "tcp"
+            }]
+        }
+    }
+}

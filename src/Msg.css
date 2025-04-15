@@ -1,0 +1,27 @@
+.message {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    max-width: 600px;
+  }
+  
+  .message-content {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  .message-footer {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #888;
+    text-align: right;
+  }
+  
+  .message code {
+    background-color: #eee;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  
